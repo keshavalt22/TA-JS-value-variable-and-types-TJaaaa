@@ -38,13 +38,25 @@ Use `prompt` to take two numbers from user and store it in variable `numA` and `
 // }
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)  
-let i = 5;
-while(i >= 0){
-    console.log(i);
-    i = i - 1;
-}
-// 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+// let finalString = "";
+// let initialValue = 5;
 
+// while (initialValue >= 0) {
+//     finalString += initialValue;
+//     initialValue --;
+// }
+// console.log(finalString);
+// 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+// let finalEvenString = "";
+// let initialEvenValue = 10;
+
+// while (initialEvenValue >= 0) {
+//     if (initialEvenValue % 2 === 0) {
+//         finalEvenString += initialEvenValue;
+//     }
+//     initialEvenValue --;
+// }
+// console.log(finalEvenString);
 // Comparisoin
 
 /* 7. Take two value using prompt and store them in variables `num1` and `num2`. Check whether they are equal or not.
@@ -59,3 +71,9 @@ Example:
 "hello", -21; // false
 
 */
+// let num1 = +prompt("Enter first number");
+// let num2 = +prompt("Enter second number");
+
+// if(isNaN(num1) || isNaN(num2)) {
+//     alert(`Enter a valid value`)
+// } else (num1 === num2)
