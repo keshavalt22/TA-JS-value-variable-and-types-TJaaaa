@@ -20,14 +20,6 @@ Write a program that asks the user his/her age and check for the following condi
 // }else {
 //   alert(`Hey, Kiddo! Can you walk?`);
 // }
-let finalString = "";
-let initialValue = 5;
-
-while (initialValue >= 0) {
-  finalString += initialValue;
-  initialValue--;
-}
- console.log(finalString);
  
 // Loops
 /*
@@ -40,12 +32,27 @@ n = 7 => output: heeeeeeello
 */
 // [Your code goes here]
 // let n = prompt(`enter a number`);
+
+// let start = "H";
+// let end = "llo";
+
+// let mid = "";
+
+// for(let i = 0; i < n; i++) {
+//   mid += "e";
+// }
+// alert (start+mid+end)
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
-
+// let max = +prompt(`enter a number`);
+// let sum = 0;
+// for(let i = 0; i <= max; i++){
+//   sum += i;
+// }
+// console.log(sum);
 /* Switch Statement
 
  🎖Using switch statement do the following
@@ -64,7 +71,39 @@ Take a number value from user and alert the message if it matches the conditions
 
 */
 // [Your code goes here]
+// let number = +prompt(`choose a number between 1 to 9.`);
 
+// switch (number){
+//   case 1:
+//     alert(`ONE`);
+//     break;
+//   case 2:
+//     alert(`TWO`);
+//     break;
+//   case 3:
+//     alert(`THREE`);
+//     break;
+//   case 4:
+//     alert(`FOUR`);
+//     break;
+//   case 5:
+//     alert(`FIVE`);
+//     break;
+//   case 6:
+//     alert(`SIX`);
+//     break;
+//   case 7:
+//     alert(`SEVEN`);
+//     break;
+//   case 8:
+//     alert(`EIGHT`);
+//     break;
+//   case 9:
+//     alert(`NINE`);
+//     break;  
+//   default:
+//     alert(`PLEASE TRY AGAIN`);  
+// }
 /*
 🎖Using switch statement do the following
 
@@ -80,16 +119,60 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+// let marks = +prompt(`Enter your marks between 0-100.`)
 
+// switch (true){
+//   case marks > 90:
+//     alert(`AA`);
+//     break;
+//   case marks > 80:
+//     alert(`AB`);
+//     break;
+//   case marks > 70:
+//     alert(`BB`);
+//     break; 
+//   case marks > 60:
+//     alert(`BC`);
+//     break; 
+//   case marks > 50:
+//     alert(`CC`);
+//     break; 
+//   case marks > 40:
+//     alert(`CD`);
+//     break;
+//   case marks > 30:
+//     alert(`DD`);
+//     break;   
+//   default:
+//     alert(`FF`);
+//     break;     
+// }
 /*
  🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 */
 // [your code goes here]
-
+// let numA= +prompt(`choose a number numA.`);
+// let numB= +prompt(`choose a number numB.`);
+ 
+// if (numA > numB) {
+//   alert (`${numA} is the bigger number.`)
+// }else {
+//   alert (`${numB} is the bigger number.`)
+// }
 /*
 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 */
 // [Your code goes here]
+// let numA= +prompt(`choose a number numA.`);
+// let numB= +prompt(`choose a number numB.`);
+// let numC= +prompt(`choose a number numC.`);
+
+// let product = numA * numB *numC;
+// if (product > 0){
+//   alert(`positive`);
+// } else {
+//   alert (`nagative`);
+// }
 
 /* Calculator
  🎖Make a simple calculator with these functions. Using prompt, type conversion, if else statement. Use prompt to take the input from user i.e two numbers and an operation (Add, Sub, Mul, Div).
@@ -104,3 +187,30 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+
+// let numA= +prompt(`choose a number numA.`);
+// let numB= +prompt(`choose a number numB.`);
+// let operators = prompt(`choose an operator (add, sub, mul, div)`);
+
+// switch(operators) {
+//   case "add":{
+//     alert (numA + numB)
+//     break;
+//   }
+//   case "sub":{
+//     alert (numA - numB)
+//     break;
+//   }
+//   case "mul":{
+//     alert (numA * numB)
+//     break;
+//   }  
+//   case "div":{
+//     alert (numA / numB)
+//     break;
+//   }
+//   default: {
+//     alert (`Enter a valid input`)
+//   }
+// }   
+
