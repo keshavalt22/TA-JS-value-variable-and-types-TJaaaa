@@ -13,6 +13,20 @@ const ACCESSORY_PRICE = 9.99;
 
 var bank_balance = 303.91;
 var amount = 0;
-// your code goes here
+var totalPhoneAmount=0;
+var totalAccessoryAmount=0;
+your code goes here
+for(let i = 0 ; i < bank_balance; i = i + PHONE_PRICE) {
+    // console.log(i)
+    totalPhoneAmount = i;
+    console.log(i)
+}
+ 
+for(let i = 0; i < SPENDING_THRESHOLD; i = i + ACCESSORY_PRICE) {
+    totalAccessoryAmount = i;
+    console.log(i)
+}
 
+let totalPurchase = totalPhoneAmount + totalAccessoryAmount;
+console.log(totalPurchase)
 // ⛑ Answer of the above will `$334.76`.
